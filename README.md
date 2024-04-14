@@ -8,6 +8,7 @@ Package colorize provides functions for formatting text with true color or Xterm
 ## Overview
 
 The `colorize` package offers developers the ability to format text with various colors and styles, supporting both true color (24-bit) and Xterm (256-color) systems. It provides flexibility in text formatting for terminal-based applications.
+
 **Features:**
 - Supports true color (24-bit) and Xterm (256-color) systems
 - No dependencies
