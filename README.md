@@ -68,7 +68,7 @@ go get github.com/dan-almenar/colorize
 
   ```
 
-- **StyleText(text string, style string) string**:
+- **StyleText(text string, style []string) string**:
   Formats text with the specified style.
   Valid styles are: bold, italic, underline, blink, reverse, hidden, stroke
   Unlike the ForegroundText and BackgroundText functions, the **StyleText** function does not return an error. If an invalid style is provided, it will be ignored.
