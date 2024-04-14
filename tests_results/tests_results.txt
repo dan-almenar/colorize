@@ -1,0 +1,19 @@
+=== RUN   TestValidateHex
+--- PASS: TestValidateHex (0.00s)
+=== RUN   TestNewColorizeErr
+--- PASS: TestNewColorizeErr (0.00s)
+=== RUN   TestGetColor
+--- PASS: TestGetColor (0.00s)
+=== RUN   TestInternalGetColor
+--- PASS: TestInternalGetColor (0.00s)
+=== RUN   TestFormatText
+--- PASS: TestFormatText (0.00s)
+=== RUN   TestStyleText
+--- PASS: TestStyleText (0.00s)
+=== RUN   TestForegroundText
+--- PASS: TestForegroundText (0.00s)
+=== RUN   TestBackgroundText
+--- PASS: TestBackgroundText (0.00s)
+PASS
+coverage: 96.4% of statements
+ok  	github.com/dan-almenar/colorize	0.002s
