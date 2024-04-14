@@ -15,6 +15,11 @@ The `colorize` package offers developers the ability to format text with various
 - Lightweight
 - Easy to use
 
+### Examples
+![Example 1](examples/examples_01.png)
+![Example 2](examples/examples_02.png)
+![Example 3](examples/examples_03.png)
+
 ## Installation
 
 ```bash
@@ -22,6 +27,11 @@ go get github.com/dan-almenar/colorize
 ```
 
 ## API Documentation
+
+**Note:** Functions that return the formatted string and an error, will return the original text string unmodified when the error is not nil. This design choice ensures that the formatted text is always displayed, even if there's an issue with the provided options or system support.
+
+During development, it's recommended to handle these errors appropriately to ensure the integrity of the formatted text.
+In production environments, omitting error handling or simply logging them out in favor of displaying the unformatted text may be acceptable, depending on the application's requirements.
 
 ### Functions
 - **GetColor(hex string, ctx ColorContext) (string, error)**:
