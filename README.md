@@ -109,7 +109,7 @@ go get github.com/dan-almenar/colorize
 	 
 ## Test Information
 ### Tests
-Unit tests have been conducted with over 96% code coverage. Detailed test results can be found in [tests_results](https://github.com/dan-almenar/tree/master/tests_results/tests_results.txt).
+Unit tests have been conducted with over 96% code coverage. Detailed test results can be found in [tests_results](https://github.com/dan-almenar/colorize/blob/master/tests_results/tests_results.txt).
 
 To run the tests locally, navigate to the package directory and execute:
 ```bash
@@ -117,7 +117,7 @@ go test -v -cover
 ```
 
 ### Benchmarks
-Benchmarks have been performed to evaluate the performance of the package. Results are available in [benchmark_results](https://github.com/dan-almenar/tree/master/tests_results/benchmarks_results.txt).
+Benchmarks have been performed to evaluate the performance of the package. Results are available in [benchmark_results](https://github.com/dan-almenar/colorize/blob/master/tests_results/benchmarks_results.txt).
 
 To run the benchmarks locally, navigate to the package directory and execute:
 ```bash
@@ -159,4 +159,4 @@ Version
 0.1.0
 
 ## License
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/dan-almenar/blob/master/LICENSE.md) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/dan-almenar/colorize/blob/master/LICENSE.md) file for details.
